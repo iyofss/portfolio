@@ -1,0 +1,124 @@
+/* @media(min-width:992px) {
+    .navbar-expand-lg .navbar-collapse {
+        width: 100%;
+    }
+} */
+
+/* 
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: (0, 0, 0, .1);
+}
+
+@media(max-width:992px) {
+    .masthead {
+        min-height: 100vh;
+    }
+} */
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+
+}
+
+
+/*  scroll up button */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(75, 75, 75);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 100%;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    width: 80px;
+    height: 80px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/* / scroll up button */
+
+.widgeter {
+    padding: 30px;
+    border-radius: 50px;
+    background: rgb(244, 244, 244);
+    background: radial-gradient(circle, rgba(244, 244, 244, 1) 0%, rgb(184, 184, 184) 100%);
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.8);
+    margin: 1.5rem;
+}
+
+.widgeterContainer {
+    padding: 30px;
+    border: 0px solid rgb(221, 221, 221);
+    border-radius: 50px;
+    background: rgb(244, 244, 244);
+    background: radial-gradient(circle, rgba(244, 244, 244, 0.39) 0%, rgb(97, 97, 97) 100%);
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1024px) {
+    .widgeterContainer {
+        padding: 0;
+        border: 0px solid rgb(221, 221, 221);
+        border-radius: 50px;
+        background: rgb(244, 244, 244);
+        background: radial-gradient(circle, rgba(244, 244, 244, 0.39) 0%, rgb(97, 97, 97) 100%);
+        box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .widgeter {
+        padding: 30px;
+        border-radius: 50px;
+        background: rgb(244, 244, 244);
+        background: radial-gradient(circle, rgba(244, 244, 244, 1) 0%, rgb(184, 184, 184) 100%);
+        box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.8);
+        margin: 10px;
+    }
+}
